@@ -1,0 +1,117 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#section1{ height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+#main{
+    background-color: rgb(255, 254, 254);
+    width: 35%;
+    height: 88%;
+    margin-top: 4%;
+    margin-left: 7%;
+}
+
+
+
+#title h1{
+    font-size: 95px;
+}
+
+#color{
+    width: 130px;
+    height: 25px;
+    margin-top: 20%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 2px;
+   
+    display: flex;
+    gap: 5px;
+    font-weight: bold;
+    
+    
+}
+
+#color2{
+    width:17%;
+    background-color:rgb(26, 117, 26);
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    margin-left: 10px;
+   
+    
+    
+    
+}
+
+
+#color3{
+    width:17%;
+    background-color:rgb(212, 17, 49);
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    
+}
+#title1{
+    margin-top: 15%;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#description{
+    margin-top:2%;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+#main2{
+    
+    width: 30%;
+    height: 88%;
+    margin-top: 12%;
+    margin-left: 7%;
+    margin-right: 130px;
+}
+
+#main2 image {
+    background-position: cover;
+}
+
+#bar{
+    display: flex;
+    gap:200px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    
+}
+
+#last{
+    position: absolute;
+    right:29%;
+    font-size: 30px;
+    font-weight: bold;
+    rotate:-90deg;
+    transform-origin:0 0 ;
+    bottom:0
+}
